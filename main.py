@@ -54,7 +54,7 @@ def exit():
 def menu():
     print("How can I help you?\n")
     print("0) submit a resume")
-    print("1) one")
+    print("1) speak to a representative")
     print("2) two")
     print("3) three")
     print("4) exit")
@@ -66,7 +66,7 @@ def menu():
     if choice == 0:
         submit_resume()
     elif choice == 1:
-        one()
+        speak_to_rep()
     elif choice == 2:
         two()
     elif choice == 3:
