@@ -33,8 +33,8 @@ def greet_user(name,age):
         print("Welcome, "+name+". You are "+str(-diff)+" years older than my creator!")
 
 class MenuHandler:
-    def zero():
-        pass
+    def submit_resume():
+        
     def one():
         pass
     def two():
@@ -48,7 +48,7 @@ class MenuHandler:
     actions = [zero, one, two, three, exit]
 
 def menu():
-    options = ["zero","one","two","three","exit"]
+    options = ["submit a resume","one","two","three","exit"]
     print("How can I help you?\n")
     for idx, opt, in enumerate(options):
         print(f"{idx}) {opt}")
